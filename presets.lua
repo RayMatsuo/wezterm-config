@@ -8,6 +8,16 @@ Void = {
     hsb = { brightness = 0.2, },
   },
 }
+
+Sesbian = {
+  {
+    -- source = { File = "C:/Users/matsu/.config/wezterm/img/signalis_logo.png", },
+    source = { File = "C:/Users/matsu/.config/wezterm/img/signalis_logo.png", },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.5, },
+  },
+}
 Derangement = {
   { source = { Color = "black" }, width = "100%", height = "100%" },
   {

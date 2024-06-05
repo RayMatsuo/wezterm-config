@@ -13,6 +13,7 @@ config.enable_kitty_graphics = true
 config.font_size = 11
 config.default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe", "-NoLogo" }
 require("presets")
+-- require("splits")
 
 -- NOTE: Switch background presets here
 config.background = Void
