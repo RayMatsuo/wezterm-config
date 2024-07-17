@@ -16,6 +16,5 @@ require("presets")
 -- require("splits")
 
 -- NOTE: Switch background presets here
-config.background = Void
-
+config.background =  Lantern
 return config
