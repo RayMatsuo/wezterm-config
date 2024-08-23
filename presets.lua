@@ -9,6 +9,15 @@ Void = {
   },
 }
 
+Thunderstorm = {
+  {
+    source = { File = home.."/.config/wezterm/img/thunderstorm2.png", },
+    width = "Cover",
+    -- horizontal_align = "Center",
+    vertical_align="Top",
+    hsb = { brightness = 0.1, },
+  },
+}
 Ocean = {
   {
     -- source = { File = home.."/.config/wezterm/img/signalis_logo.png", },
@@ -34,6 +43,15 @@ Sesbian = {
     width = "Cover",
     horizontal_align = "Center",
     hsb = { brightness = 0.5, },
+  },
+}
+
+Kco = {
+  {
+    source = { File = home.."/.config/wezterm/img/kco.png", },
+    height = "Cover",
+    vertical_align = "Bottom",
+    hsb = { brightness = 0.1, },
   },
 }
 Derangement = {

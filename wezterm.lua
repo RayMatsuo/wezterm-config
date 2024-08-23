@@ -16,5 +16,5 @@ require("presets")
 -- require("splits")
 
 -- NOTE: Switch background presets here
-config.background =  Lantern
+config.background = Thunderstorm
 return config
