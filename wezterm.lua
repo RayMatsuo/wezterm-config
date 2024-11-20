@@ -12,6 +12,6 @@ config.font_size = 11
 config.default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe", "-NoLogo" }
 require("presets")
 
-config.background = Natural
+config.background = Religion
 
 return config

@@ -1,4 +1,28 @@
 local home = os.getenv("HOME")
+Cathy = {
+  {
+    source = { File = home .. "/.config/wezterm/img/cathy.jpeg" },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.1 },
+  },
+}
+Mountain = {
+  {
+    source = { File = home .. "/.config/wezterm/img/mountain.png" },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.1 },
+  },
+}
+Religion = {
+  {
+    source = { File = home .. "/.config/wezterm/img/religion.png" },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.2 },
+  },
+}
 Natural = {
   {
     source = { File = home .. "/.config/wezterm/img/natural_science.jpg" },
