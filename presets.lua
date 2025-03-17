@@ -1,4 +1,21 @@
 local home = os.getenv("HOME")
+
+Mononoke_2 = {
+  {
+    source = { File = home .. "/.config/wezterm/img/mononoke_2.jpg" },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.1 },
+  },
+}
+Mononoke_1 = {
+  {
+    source = { File = home .. "/.config/wezterm/img/mononoke_1.jpg" },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.1 },
+  },
+}
 Cathy = {
   {
     source = { File = home .. "/.config/wezterm/img/cathy.jpeg" },
