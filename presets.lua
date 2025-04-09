@@ -1,5 +1,28 @@
 local home = os.getenv("HOME")
 
+
+White = {
+  {
+    source = { File = home .. "/.config/wezterm/img/white.jpg" },
+  },
+}
+
+Signalis_2 = {
+  {
+    source = { File = home .. "/.config/wezterm/img/signalis_1.png" },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.1 },
+  },
+}
+Signalis = {
+  {
+    source = { File = home .. "/.config/wezterm/img/signalis_logo.png" },
+    width = "Cover",
+    horizontal_align = "Center",
+    hsb = { brightness = 0.1 },
+  },
+}
 Mononoke_2 = {
   {
     source = { File = home .. "/.config/wezterm/img/mononoke_2.jpg" },
