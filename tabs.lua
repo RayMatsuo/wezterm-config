@@ -2,17 +2,27 @@ function InitTab(cofig)
   local wezterm = require("wezterm")
   -- The filled in variant of the < symbol
 
-
-  local colors={
+  local pastel={
     main='#f6dbfc',
     alt='#efc2f9',
+    bg='#ffffff',
+    text='#41AAFD',
+    text_alt='#ffffff',
     accent="#8BE9FD"
   }
 
-  
+  local test={
+    main='#000000',
+    alt='#222222',
+    text='#ffffff',
+    text_alt='#ffffff',
+    accent="#ff0000"
+  }
+  local colors=pastel
+
 config.window_frame = {
-  active_titlebar_bg = colors.main,
-  inactive_titlebar_bg = '#333333',
+  active_titlebar_bg = colors.bg,
+  inactive_titlebar_bg =colors.alt,
 }
   config.colors = {
   tab_bar = {
@@ -23,9 +33,9 @@ config.window_frame = {
     -- The active tab is the one that has focus in the window
     active_tab = {
       -- The color of the background area for the tab
-      bg_color = colors.alt,
+      bg_color = colors.bg,
       -- The color of the text for the tab
-      fg_color = '#000000',
+      fg_color = colors.text,
 
       -- Specify whether you want "Half", "Normal" or "Bold" intensity for the
       -- label shown for this tab.
@@ -48,8 +58,8 @@ config.window_frame = {
 
     -- Inactive tabs are the tabs that do not have focus
     inactive_tab = {
-      bg_color = '#f6dbfc',
-      fg_color = '#808080',
+      bg_color = colors.alt,
+      fg_color = colors.text_alt,
 
       -- The same options that were listed under the `active_tab` section above
       -- can also be used for `inactive_tab`.
@@ -69,7 +79,7 @@ config.window_frame = {
     -- The new tab button that let you create new tabs
     new_tab = {
       bg_color = colors.main,
-      fg_color = '#808080',
+      fg_color = colors.text_alt,
 
       -- The same options that were listed under the `active_tab` section above
       -- can also be used for `new_tab`.

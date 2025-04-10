@@ -1,6 +1,16 @@
 local home = os.getenv("HOME")
 
 
+
+Pastel = {
+  {
+    source = { File = home .. "/.config/wezterm/img/pastel.jpg" },
+    height = "Cover",
+    vertical_align = "Bottom",
+    hsb = { brightness = 1 },
+  },
+}
+
 White = {
   {
     source = { File = home .. "/.config/wezterm/img/white.jpg" },

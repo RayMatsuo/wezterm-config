@@ -14,6 +14,6 @@ config.default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe", "-NoLogo" }
 config=InitTab(config)
 require("presets")
 
-config.background = White
+config.background = Pastel
 
 return config
