@@ -78,8 +78,8 @@ config.window_frame = {
 
     -- The new tab button that let you create new tabs
     new_tab = {
-      bg_color = colors.main,
-      fg_color = colors.text_alt,
+      bg_color = colors.bg,
+      fg_color = colors.accent,
 
       -- The same options that were listed under the `active_tab` section above
       -- can also be used for `new_tab`.
