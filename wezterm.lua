@@ -12,8 +12,9 @@ config.enable_kitty_graphics = true
 config.font_size = 11
 config.default_prog = { "C:/Program Files/PowerShell/7/pwsh.exe", "-NoLogo" }
 config=InitTab(config)
+config.font = wezterm.font 'JetBrains Mono'
 require("presets")
 
-config.background = Pastel
+config.background = Pastel_1
 
 return config
